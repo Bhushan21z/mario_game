@@ -1,0 +1,485 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: hidden;
+}
+.container{
+    background-image: url('bg1.jpg');
+    background-size:cover ;
+    height: 100vh;
+    width: 100vw;
+}
+.m{
+    background-image: url(mario.png);
+    background-size: cover;
+    height: 126px;
+    width: 97px;
+    position: absolute;
+    left: 60px;
+    bottom: 428px;
+}
+.mario{
+    background-image: url(mario.png);
+    background-size: cover;
+    height: 126px;
+    width: 97px;
+    position: absolute;
+    left: 200px;
+    bottom: 28px;
+}
+.brick1{
+    background-image: url(brick\ 1.png);
+    background-size: cover;
+    height: 60px;
+    width: 450px;
+    position: absolute;
+    left: 0px;
+    bottom: 175px;
+}
+.brick2{
+    background-image: url(brick\ 2.png);
+    background-size: cover;
+    height: 64px;
+    width: 400px;
+    position: absolute;
+    left: 350px;
+    bottom: 372px;
+}
+.brick3{
+    background-image: url(brick\ 2.png);
+    background-size: cover;
+    height: 64px;
+    width: 300px;
+    position: absolute;
+    left: 70px;
+    bottom: 573px;
+}
+.brick4{
+    background-image: url(brick\ 1.png);
+    background-size: cover;
+    height: 64px;
+    width: 780px;
+    position: absolute;
+    left: 750px;
+    bottom: 490px;
+}
+
+/*//////coins*/
+
+.coin1{
+    background-image: url('coin.png');
+    background-size: cover;
+    height: 60px;
+    width: 50px;
+    position: absolute;
+    bottom: 100px;
+    left:100px;
+}
+.coin2{
+    background-image: url('coin.png');
+    background-size: cover;
+    height: 60px;
+    width: 50px;
+    position: absolute;
+    bottom: 100px;
+    left:300px;
+}
+.coin3{
+    background-image: url('coin.png');
+    background-size: cover;
+    height: 60px;
+    width: 50px;
+    position: absolute;
+    bottom: 100px;
+    left:500px;
+}
+.coin4{
+    background-image: url('coin.png');
+    background-size: cover;
+    height: 60px;
+    width: 50px;
+    position: absolute;
+    bottom: 100px;
+    left:750px;
+}
+.coin5{
+    background-image: url('coin.png');
+    background-size: cover;
+    height: 60px;
+    width: 50px;
+    position: absolute;
+    bottom: 200px;
+    left:1200px;
+}
+.coin6{
+    background-image: url('coin.png');
+    background-size: cover;
+    height: 60px;
+    width: 50px;
+    position: absolute;
+    bottom: 160px;
+    left:900px;
+}
+.coin7{
+    background-image: url('coin.png');
+    background-size: cover;
+    height: 60px;
+    width: 50px;
+    position: absolute;
+    bottom: 260px;
+    left:200px;
+}
+.coin8{
+    background-image: url('coin.png');
+    background-size: cover;
+    height: 60px;
+    width: 50px;
+    position: absolute;
+    bottom: 260px;
+    left:100px;
+}
+.coin9{
+    background-image: url('coin.png');
+    background-size: cover;
+    height: 60px;
+    width: 50px;
+    position: absolute;
+    bottom: 260px;
+    left:10px;
+}
+.coin10{
+    background-image: url('coin.png');
+    background-size: cover;
+    height: 60px;
+    width: 50px;
+    position: absolute;
+    bottom: 260px;
+    left:300px;
+}
+.coin11{
+    background-image: url('coin.png');
+    background-size: cover;
+    height: 60px;
+    width: 50px;
+    position: absolute;
+    bottom: 460px;
+    left:400px;
+}
+.coin12{
+    background-image: url('coin.png');
+    background-size: cover;
+    height: 60px;
+    width: 50px;
+    position: absolute;
+    bottom: 460px;
+    left:500px;
+}
+.coin13{
+    background-image: url('coin.png');
+    background-size: cover;
+    height: 60px;
+    width: 50px;
+    position: absolute;
+    bottom: 460px;
+    left:600px;
+}
+.coin14{
+    background-image: url('coin.png');
+    background-size: cover;
+    height: 60px;
+    width: 50px;
+    position: absolute;
+    bottom: 460px;
+    left:700px;
+}
+.coin15{
+    background-image: url('coin.png');
+    background-size: cover;
+    height: 60px;
+    width: 50px;
+    position: absolute;
+    bottom: 260px;
+    left:400px;
+}
+.coin16{
+    background-image: url('coin.png');
+    background-size: cover;
+    height: 60px;
+    width: 50px;
+    position: absolute;
+    bottom: 660px;
+    left:80px;
+}
+.coin17{
+    background-image: url('coin.png');
+    background-size: cover;
+    height: 60px;
+    width: 50px;
+    position: absolute;
+    bottom: 660px;
+    left:160px;
+}
+.coin18{
+    background-image: url('coin.png');
+    background-size: cover;
+    height: 60px;
+    width: 50px;
+    position: absolute;
+    bottom: 660px;
+    left:240px;
+}
+.coin19{
+    background-image: url('coin.png');
+    background-size: cover;
+    height: 60px;
+    width: 50px;
+    position: absolute;
+    bottom: 660px;
+    left:320px;
+}
+.coin20{
+    background-image: url('coin.png');
+    background-size: cover;
+    height: 60px;
+    width: 50px;
+    position: absolute;
+    bottom: 580px;
+    left:780px;
+}
+.coin21{
+    background-image: url('coin.png');
+    background-size: cover;
+    height: 60px;
+    width: 50px;
+    position: absolute;
+    bottom: 580px;
+    left:860px;
+}
+.coin22{
+    background-image: url('coin.png');
+    background-size: cover;
+    height: 60px;
+    width: 50px;
+    position: absolute;
+    bottom: 580px;
+    left:940px;
+}
+.coin23{
+    background-image: url('coin.png');
+    background-size: cover;
+    height: 60px;
+    width: 50px;
+    position: absolute;
+    bottom: 580px;
+    left:1020px;
+}
+.coin24{
+    background-image: url('coin.png');
+    background-size: cover;
+    height: 60px;
+    width: 50px;
+    position: absolute;
+    bottom: 580px;
+    left:1100px;
+}
+.coin25{
+    background-image: url('coin.png');
+    background-size: cover;
+    height: 60px;
+    width: 50px;
+    position: absolute;
+    bottom: 580px;
+    left:1180px;
+}
+.coin26{
+    background-image: url('coin.png');
+    background-size: cover;
+    height: 60px;
+    width: 50px;
+    position: absolute;
+    bottom: 580px;
+    left:1260px;
+}
+.coin27{
+    background-image: url('coin.png');
+    background-size: cover;
+    height: 60px;
+    width: 50px;
+    position: absolute;
+    bottom: 580px;
+    left:1340px;
+}
+.coin28{
+    background-image: url('coin.png');
+    background-size: cover;
+    height: 60px;
+    width: 50px;
+    position: absolute;
+    bottom:580px;
+    left:1420px;
+}
+.coin29{
+    background-image: url('coin.png');
+    background-size: cover;
+    height: 60px;
+    width: 50px;
+    position: absolute;
+    bottom: 580px;
+    left:1500px;
+}
+.coin30{
+    background-image: url('coin.png');
+    background-size: cover;
+    height: 60px;
+    width: 50px;
+    position: absolute;
+    bottom: 200px;
+    left:1030px;
+}
+.crab1{
+    background-image: url('crab.png');
+    background-size: cover;
+    height: 70px;
+    width: 90px;
+    position: absolute;
+    bottom: 38px;
+    left:1050px;
+    animation: movecrab1 linear 6s infinite;
+}
+.crab2{
+    background-image: url('crab.png');
+    background-size: cover;
+    height: 70px;
+    width: 90px;
+    position: absolute;
+    bottom: 550px;
+    left:900px;
+    animation: movecrab2 linear 5.5s infinite;
+}
+.mushroom{
+    background-image: url('mushroom.png');
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    bottom: 38px;
+    left:650px;
+    opacity: 0;
+    /*animation: movemushroom linear 2s;*/
+}
+.key{
+    background-image: url('key.png');
+    background-size: cover;
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    bottom: 30px;
+    left:1200px;
+    opacity: 0;
+    /*animation: movekey linear 2s;*/
+}
+.bullet{
+    background-image: url('bullets.png');
+    background-size: cover;
+    height: 40px;
+    width: 70px;
+    position: absolute;
+    bottom: 50px;
+    left: 200px;
+    opacity: 0;
+}
+.bulletl{
+    background-image: url('bullets.png');
+    background-size: cover;
+    height: 40px;
+    width: 70px;
+    position: absolute;
+    bottom: 50px;
+    left: 200px;
+    opacity: 0;
+}
+.pipe{
+    background-image: url('pipe.jpg');
+    background-size: cover;
+    height: 120px;
+    width: 100px;
+    position: absolute;
+    bottom: 35px;
+    left: 1450px;
+    opacity: 0;
+}
+.gameover{
+    height: 10vh;
+    width: 20vw;
+    padding-left: 3vw;
+   font-size: 60px;
+   position: absolute;
+   left: 40vw;
+   top: 40vh;
+   background-color: black;
+   color: white;
+   text-decoration: underline;
+   opacity: 0;
+}
+
+@keyframes movecrab1{
+    0%{
+        left: 950px;
+    }
+    50%{
+        left:1450px;
+    }
+    100%{
+        left: 950px;
+    }
+}
+
+@keyframes movecrab2{
+    0%{
+        left: 710px;
+    }
+    50%{
+        left:1450px;
+    }
+    100%{
+        left: 710px;
+    }
+}
+@keyframes movekey{
+    0%{
+        left: 1150px;
+        bottom: 240px;
+    }
+    30%{
+        left: 1200px;
+        bottom: 290px;
+    }
+    100%{
+        bottom: 30px;
+        left: 1200px;
+    }
+}
+@keyframes movemushroom{
+    0%{
+        left: 600px;
+        bottom: 228px;
+    }
+    30%{
+        left: 650px;
+        bottom: 260px;
+    }
+    100%{
+        bottom: 28px;
+        left: 650px;
+    }
+}
+/* @keyframes bulletfire{
+    0%{
+        left: ".bullet left";
+    }
+    100%{
+        left: ".bullet left+600px";
+    }
+} */
