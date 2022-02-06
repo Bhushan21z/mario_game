@@ -5,9 +5,18 @@
 body{
     overflow: hidden;
 }
+.bggg{
+    height: 1oovh;
+    width: 100vw;
+    position: absolute;
+}
+.bggg img{
+    height: 100vh;
+    width: 100vw;
+}
 .container{
-    background-image: url('bg1.jpg');
-    background-size:cover ;
+    /* background-image: url('bg1.jpg');
+    background-size:cover ; */
     height: 100vh;
     width: 100vw;
 }
